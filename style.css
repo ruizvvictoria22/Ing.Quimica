@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fa;
+    margin: 0;
+    padding: 20px;
+    color: #263238;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #1e88e5;
+}
+
+.level-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 40px;
+    color: #1565c0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.course {
+    background: #bbdefb;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.2s;
+    border: 2px solid transparent;
+}
+
+.course:hover {
+    background: #64b5f6;
+    border-color: #1e88e5;
+    transform: scale(1.03);
+}
+
+.info-box {
+    margin-top: 40px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    border: 2px solid #90caf9;
+    display: none;
+}
